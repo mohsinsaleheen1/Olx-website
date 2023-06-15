@@ -1,0 +1,604 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 1260px;
+    height: 1665px;
+    margin: 0px;
+}
+.header{
+    margin: 0px;
+    position: absolute;
+    width: 1260px;
+    height: 150px;
+    background-color:rgb(246, 244, 244);
+}
+.header>p{
+    padding-left: 80px;
+    font-size: larger;
+    font-family:sans-serif;
+    font-weight:bolder;
+    color: rgb(42, 42, 250);
+}
+.header >a{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    left: 150px;
+    top: 25px;
+    font-size: 10x;
+    word-spacing: 10px;
+}
+.header > a:hover{
+    color: rgb(42, 42, 250);
+}
+.header> a span{
+    padding-left: 10px;
+}
+.header > .i2{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    left: 280px;
+    top: 25px;
+    font-size: 10x;
+    word-spacing: 10px;
+}
+.header> .p2{
+    padding-left: 90px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: black;
+}
+.header .select{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/5948/5948534.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    background-position:left;
+    position: absolute;
+    top: 95px;
+    left: 200px;
+    height: 40px;
+    width: 250px;
+    font-size: large;
+}
+.header .select:hover{
+    border-color: aqua;
+}
+.header input{
+    position: absolute;
+    top: 95px;
+    left: 470px;
+    height: 35px;
+    width: 350px;
+    font-size: large;
+}
+.header input:hover{
+    border-color: aqua;
+}
+.header button{
+    position: absolute;
+    top: 95px;
+    left: 825px;
+    height: 41px;
+    width: 40px;
+    font-size: large;
+    color: white;
+    background-color:rgb(9, 64, 66);
+}
+.header .l{
+    position: absolute;
+    top: 105px;
+    left: 900px;
+    font-size: 20px;
+    color:rgb(9, 64, 66) ;
+    text-decoration: underline;
+}
+.header .l:hover{
+    color: rgb(9, 64, 66);
+    text-decoration: none;
+}
+.header .b2{
+    position: absolute;
+    top: 95px;
+    left: 1000px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 50px;
+    width: 100px;
+    color: rgb(9, 64, 66);
+}
+.container .navbar ul li .Categories{
+    border: none;
+    width: 100px;
+}
+.container .navbar{
+    position: absolute;
+    top: 153px;
+    width: 1260px;
+    height: 50px;
+    margin: 0px;
+   box-shadow: 0 0 5px #777777;
+}
+.container .navbar ul li{
+    display: inline;
+    font-family: sans-serif;
+}
+.container .navbar ul a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.container .navbar ul a:hover{
+    color: rgb(15, 181, 181);
+}
+.container .img {
+    position: absolute;
+    top: 200px;
+    width: 1260px;
+    height: 50px;
+}
+.container .img img{
+    width: 1220px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.container .cards{
+    position: absolute;
+    top: 400px;
+    width: 1260px;
+    height: 790px;
+}
+.container .cards h5{
+    font-size: 22px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.container .cards .line1{
+    width: 1260px;
+    height: 310px;
+}
+.container .cards .line1 .card1{
+    width: 285px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 15px;
+    background-color:rgb(246, 244, 244);
+}
+.container .cards .line1 .card1 img{
+    width: 285px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container .cards .line1 .card1 .fa-heart{
+    font-size: 20px;
+    position: absolute;
+    left: 250px;
+    top: 168px;
+}
+.container .cards .line1 .card1 p{
+    padding-left: 10px;
+    color: #4b4b4b;
+} 
+.container .cards .line1 .card2{
+    width: 285px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 325px;
+    background-color:rgb(246, 244, 244);
+}
+.container .cards .line1 .card2 img{
+    width: 285px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container .cards .line1 .card2 .fa-heart{
+    font-size: 20px;
+    position: absolute;
+    left: 250px;
+    top: 168px;
+}
+.container .cards .line1 .card2 p{
+    padding-left: 10px;
+    color: #4b4b4b;
+} 
+.container .cards .line1 .card3{
+    width: 285px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 635px;
+    background-color: rgb(246, 244, 244);
+}
+.container .cards .line1 .card3 img{
+    width: 285px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container .cards .line1 .card3 .fa-heart{
+    font-size: 20px;
+    position: absolute;
+    left: 250px;
+    top: 168px;
+}
+.container .cards .line1 .card3 p{
+    padding-left: 10px;
+    color: #4b4b4b;
+} 
+.container .cards .line1 .card4{
+    width: 285px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 950px;
+    background-color:  rgb(246, 244, 244);
+}
+.container .cards .line1 .card4 img{
+    width: 285px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container .cards .line1 .card4 .fa-heart{
+    font-size: 20px;
+    position: absolute;
+    left: 250px;
+    top: 168px;
+}
+.container .cards .line1 .card4 p{
+    padding-left: 10px;
+    color: #4b4b4b;
+} 
+.container .cards .line2{
+    position: absolute;
+    top: 410px;
+    width: 1260px;
+    height: 380px;
+}
+.container .cards .line2 .card5{
+    width: 285px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 15px;
+    background-color:  rgb(246, 244, 244);
+}
+.container .cards .line2 .card5 img{
+    width: 285px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container .cards .line2 .card5 .fa-heart{
+    font-size: 20px;
+    position: absolute;
+    left: 250px;
+    top: 168px;
+}
+.container .cards .line2 .card5 p{
+    padding-left: 10px;
+    color: #4b4b4b;
+} 
+.container .cards .line2 .card6{
+    width: 285px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 325px;
+    background-color: rgb(246, 244, 244);
+}
+.container .cards .line2 .card6 img{
+    width: 285px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container .cards .line2 .card6 .fa-heart{
+    font-size: 20px;
+    position: absolute;
+    left: 250px;
+    top: 168px;
+}
+.container .cards .line2 .card6 p{
+    padding-left: 10px;
+    color: #4b4b4b;
+} 
+.container .cards .line2 .card7{
+    width: 285px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 635px;
+    background-color: rgb(246, 244, 244);
+}
+.container .cards .line2 .card7 img{
+    width: 285px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container .cards .line2 .card7 .fa-heart{
+    font-size: 20px;
+    position: absolute;
+    left: 250px;
+    top: 168px;
+}
+.container .cards .line2 .card7 p{
+    padding-left: 10px;
+    color: #4b4b4b;
+} 
+.container .cards .line2 .card8{
+    width: 285px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 950px;
+    background-color: rgb(246, 244, 244);
+}
+.container .cards .line2 .card8 img{
+    width: 285px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container .cards .line2 .card8 .fa-heart{
+    font-size: 20px;
+    position: absolute;
+    left: 250px;
+    top: 168px;
+}
+.container .cards .line2 .card8 p{
+    padding-left: 10px;
+    color: #4b4b4b;
+} 
+.container .cards .line2 .lm{
+    position: absolute;
+    top: 320px;
+    left: 570px;
+    height: 50px;
+    width: 110px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: white;
+}
+.container .cards .line2 .lm:hover{
+    border-color: rgb(9, 64, 66);
+    color: rgb(9, 64, 66);
+}
+.container .footer{
+    width: 1260px;
+    height: 473px;
+    position: absolute;
+    top: 1190px;
+}
+.container .footer .f1{
+    width: 1260px;
+    height: 200px;
+}
+.container .footer .f1 .a{
+    width: 630px;
+    height: 200px;
+    background-color:  rgb(246, 244, 244);
+}
+.container .footer .f1 .a img{
+    position: absolute;
+    left: 150px;
+}
+.container .footer .f1 .b{
+    position: absolute;
+    top: 2px;
+    left: 630px;
+    width: 628px;
+    height: 198px;
+    background-color:  rgb(246, 244, 244);
+}
+.container .footer .f1 .b h3{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.container .footer .f1 .b .img1{
+    position: absolute;
+    top: 80px;
+    width: 160px;
+    height: 100px;  
+}
+.container .footer .f1 .b .img2{
+    position: absolute;
+    top: 110px;
+    left: 150px;
+    width: 150px;
+    height: 40px;  
+}
+.container .footer .f1 .b .img3{
+    position: absolute;
+    top: 110px;
+    left: 300px;
+    width: 150px;
+    height: 40px;  
+}
+.container .footer .f2{
+    position: absolute;
+    width: 1257px;
+    height: 220px;
+    border-top: 1.5px solid slategrey;
+    background-color:#ededed;
+}
+.container .footer .f2 .pc{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    left: 50px;
+}
+.container .footer .f2 .pc a{
+    text-decoration: none;
+    color: rgb(9, 64, 66);
+    text-align: center;
+    font-weight: bold;
+}
+.container .footer .f2 .pc li{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: block;
+}
+.container .footer .f2 .pc li a{
+    color: #777777;
+    font-weight: unset;
+}
+.container .footer .f2 .pc li a:hover{
+    color: rgb(9, 64, 66);
+}
+.container .footer .f2 .tc{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    left: 280px;
+}
+.container .footer .f2 .tc a{
+    text-decoration: none;
+    color: rgb(9, 64, 66);
+    text-align: center;
+    font-weight: bold;
+}
+.container .footer .f2 .tc li{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: block;
+}
+.container .footer .f2 .tc li a{
+    color: #777777;
+    font-weight: unset;
+}
+.container .footer .f2 .tc li a:hover{
+    color: rgb(9, 64, 66);
+}
+.container .footer .f2 .about{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    left: 500px;
+}
+.container .footer .f2 .about a{
+    text-decoration: none;
+    color: rgb(9, 64, 66);
+    text-align: center;
+    font-weight: bold;
+}
+.container .footer .f2 .about li{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: block;
+}
+.container .footer .f2 .about li a{
+    color: #777777;
+    font-weight: unset;
+}
+.container .footer .f2 .about li a:hover{
+    color: rgb(9, 64, 66);
+}
+.container .footer .f2 .olx{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    left: 730px;
+}
+.container .footer .f2 .olx a{
+    text-decoration: none;
+    color: rgb(9, 64, 66);
+    text-align: center;
+    font-weight: bold;
+}
+.container .footer .f2 .olx li{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: block;
+}
+.container .footer .f2 .olx li a{
+    color: #777777;
+    font-weight: unset;
+}
+.container .footer .f2 .olx li a:hover{
+    color: rgb(9, 64, 66);
+}
+.container .footer .f2 .follow{
+    width: 300px;
+    height: 220px;
+    position: absolute;
+    left: 950px;
+}
+.container .footer .f2 .follow a{
+    text-decoration: none;
+    color: rgb(9, 64, 66);
+    font-weight: bold;
+}
+.container .footer .f2 .follow a .fa-facebook{
+    font-size: 30px;
+    color: #3b5998 ;
+    padding-left: 10px;
+}
+.container .footer .f2 .follow a .fa-twitter{
+    font-size: 30px;
+    color: #00acee ;
+    padding-left: 10px;
+}
+.container .footer .f2 .follow a .fa-youtube{
+    font-size: 30px;
+    color: #c4302b ;
+    padding-left: 10px;
+}
+.container .footer .f2 .follow a .fa-instagram{
+    font-size: 30px;
+    color:#d62976;
+    padding-left: 10px;
+}
+.container .footer .f2 .follow .folimg{
+    width: 280px;
+    height: 50px;
+    position: absolute;
+    top: 120px;
+}
+.container .footer .f2 .follow .folimg .fol1{
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    left: 1px;
+}
+ .container .footer .f2 .follow .folimg .fol2{
+    width: 80px;
+    height: 28px;
+    position:absolute;
+    top: 20px;
+    left: 100px;
+}
+.container .footer .f2 .follow .folimg .fol3{
+    width: 80px;
+    height: 28px;
+    position: absolute;
+    left: 190px;
+    top: 20px;
+} 
+.container .footer .mainfooter{
+    width: 1257px;
+    height: 50px;
+    position: absolute;
+    top: 220px;
+    background-color:  rgb(9, 64, 66);
+}
+.container .footer .mainfooter p{
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+}
